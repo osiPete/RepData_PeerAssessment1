@@ -4,14 +4,6 @@ Unzip load and display git data
 
 
 ```r
-unzip("activity.zip")
-```
-
-```
-## Warning: error 1 in extracting from zip file
-```
-
-```r
 data<-read.csv('activity.csv')
 data
 ```
